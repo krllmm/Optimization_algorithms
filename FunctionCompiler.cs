@@ -9,7 +9,6 @@ Cleaned up spaghetti code and improved by Elmü (elmue@gmx.de)
 using System;
 using System.CodeDom.Compiler;
 using System.Reflection;
-using System.Runtime.Serialization;
 using System.Text;
 using Microsoft.CSharp;
 

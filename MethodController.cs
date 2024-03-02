@@ -109,8 +109,6 @@ namespace OPR_1
             var elapsedMs = watch.ElapsedMilliseconds;
             label_res.Text = "Вычисление заняло " + (elapsedMs / 1000.0).ToString() + " сек.";
 
-
-
             Graph3D graph = Application.OpenForms["Form1"].Controls["graph3D1"] as Graph3D;
             GraphicController graphicController = new GraphicController();
             graphicController.MakeSurface(graph);

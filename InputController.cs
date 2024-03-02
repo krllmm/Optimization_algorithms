@@ -4,6 +4,13 @@ namespace OPR_1
 {
     internal class InputController
     {
+        public string GetFunctionString()
+        {
+            TextBox t = Application.OpenForms["Form1"].Controls["textBox1"] as TextBox;
+            string func = t.Text;
+
+            return func;
+        }
         public double[] GetFunction()
         {
             TextBox t = Application.OpenForms["Form1"].Controls["textBox1"] as TextBox;
